@@ -10,10 +10,12 @@ const sequelize = require("./utils/db");
 
 // Models setup
 
-const Employee = require("./models/empModel");
+const Employee = require("./models/employeeModel");
+const Admin = require("./models/adminModel");
 
 const models = {
   Employee,
+  Admin,
 };
 
 Object.keys(models).forEach((modelName) => {

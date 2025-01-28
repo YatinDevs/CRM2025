@@ -425,3 +425,10 @@ RBAC Implementation: This approach is a standard and widely-used method for impl
 Controller Logic: Controllers handle the actual data processing logic (CRUD operations), and middleware handles the authorization check for each action based on the user's assigned role.
 
 Scalability: This method scales well because you can easily add more roles and permissions without major changes to the controller logic—just extend the middleware and role definitions.
+
+## Setting Up Authentication Endpoint and API Gateway
+
+- Install Required Dependencies :
+
+                npm i jsonwebtoken
+                npm i bcrypt
